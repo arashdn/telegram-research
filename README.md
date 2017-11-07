@@ -7,7 +7,7 @@ This repository contains dataset for our research on Telegram instant messaging 
 	Arash Dargahi Nobari, Negar Reshadatmand and Mahmood Neshati. “Analysis of Telegram, An Instant Messaging Service”,
 	In proceedings of The 26th ACM International Conference on Information and Knowledge Management (CIKM ’17), Nov 2017.
 
-You may check the [paper](to_be_added) ([PDF](to_be_added)) for more information.
+You may check the [paper](https://dl.acm.org/citation.cfm?id=3133132) ([PDF](to_be_added)) for more information.
 
 ## Dataset
 
@@ -23,3 +23,23 @@ There is five tables in this database:
 ## Citation
 
 Please cite the paper, If you used the data in this repository.
+
+```
+@inproceedings{DargahiNobari:2017:ATI:3132847.3133132,
+ author = {Dargahi Nobari, Arash and Reshadatmand, Negar and Neshati, Mahmood},
+ title = {Analysis of Telegram, An Instant Messaging Service},
+ booktitle = {Proceedings of the 2017 ACM on Conference on Information and Knowledge Management},
+ series = {CIKM '17},
+ year = {2017},
+ isbn = {978-1-4503-4918-5},
+ location = {Singapore, Singapore},
+ pages = {2035--2038},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/3132847.3133132},
+ doi = {10.1145/3132847.3133132},
+ acmid = {3133132},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {classification, instant messaging, pagerank, spam detection, telegram},
+} 
+```
