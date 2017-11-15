@@ -7,7 +7,7 @@ This repository contains dataset for our research on Telegram instant messaging 
 	Arash Dargahi Nobari, Negar Reshadatmand and Mahmood Neshati. “Analysis of Telegram, An Instant Messaging Service”,
 	In proceedings of The 26th ACM International Conference on Information and Knowledge Management (CIKM ’17), Nov 2017.
 
-You may check the [paper](https://dl.acm.org/citation.cfm?id=3133132) ([PDF](to_be_added)) for more information.
+You may check the [paper](https://dl.acm.org/citation.cfm?id=3133132) ([PDF](http://facultymembers.sbu.ac.ir/neshati/wp-content/uploads/2017/11/telegram.pdf) and [Poster](http://facultymembers.sbu.ac.ir/neshati/wp-content/uploads/2017/11/poster_CIKM.pdf)) for more information.
 
 ## Dataset
 
