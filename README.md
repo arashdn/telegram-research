@@ -27,12 +27,17 @@ There are five tables in this database:
 #### Version 2:
 This version of the dataset is used in paper 2. Similar to V1, This dataset is a MySQL database, which can be downloaded from [dropbox](https://www.dropbox.com/s/sokcxz35e4ta91l/tg_v2_public.zip) This file includes a dump of database in sql format.
 
+
+Please note that this version is not augmenting version 1, and contains completely different messages, users, and information.
+
+
 There are five tables in this database:
 - `channels`: Username and other information related to all channels in our dataset.
 - `posts`: All of the crawled messages.
 - `tags`: A list of 24 categorical tags of the messages.
 - `super_tags`: Parent categories for the aforementioned tags.
 - `viral_messages`: Viral messages including their sentiment and category tags.
+
 
 ## Citation
 
