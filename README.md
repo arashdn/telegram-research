@@ -1,24 +1,38 @@
 # Telegram
-This repository contains dataset for our research on Telegram instant messaging service
+This repository contains datasets used in our research on Telegram instant messaging service.
 
 ### Published Papers:
-1.
+#### 1.
 
 	Arash Dargahi Nobari, Negar Reshadatmand and Mahmood Neshati. “Analysis of Telegram, An Instant Messaging Service”,
 	In proceedings of The 26th ACM International Conference on Information and Knowledge Management (CIKM ’17), Nov 2017.
 
 You may check the [paper](https://dl.acm.org/citation.cfm?id=3133132) ([PDF](http://facultymembers.sbu.ac.ir/neshati/wp-content/uploads/2017/11/telegram.pdf) and [Poster](http://facultymembers.sbu.ac.ir/neshati/wp-content/uploads/2017/11/poster_CIKM.pdf)) for more information.
 
+#### 2.
+Not published yet.
+
 ## Dataset
 
-The dataset is stored in a MySQL database, which can be downloaded from [dropbox](https://www.dropbox.com/s/szcjfo5k4cxycxz/tg_public.zip) This file includes a dump of database in sql format.
+#### Version 1:
+This version of the dataset is used in paper 1. The dataset is stored in a MySQL database, which can be downloaded from [dropbox](https://www.dropbox.com/s/szcjfo5k4cxycxz/tg_public.zip) This file includes a dump of database in sql format.
 
-There is five tables in this database:
-- `posts`: All of crawled messages.
-- `users`: All of users in messages (including members, groups and channels)
+There are five tables in this database:
+- `posts`: All of the crawled messages.
+- `users`: All of the users in messages (including members, groups and channels)
 - `mentions`: All mention relationships
 - `fwds`: All forward relationships
-- `adv_tags`: randomly selected post and their spam or ham tag.
+- `adv_tags`: randomly selected posts and their spam or ham tag.
+
+#### Version 2:
+This version of the dataset is used in paper 2. Similar to V1, This dataset is a MySQL database, which can be downloaded from [dropbox](https://www.dropbox.com/s/sokcxz35e4ta91l/tg_v2_public.zip) This file includes a dump of database in sql format.
+
+There are five tables in this database:
+- `channels`: Username and other information related to all channels in our dataset.
+- `posts`: All of the crawled messages.
+- `tags`: A list of 24 categorical tags of the messages.
+- `super_tags`: Parent categories for the aforementioned tags.
+- `viral_messages`: Viral messages including their sentiment and category tags.
 
 ## Citation
 
