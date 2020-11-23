@@ -4,13 +4,16 @@ This repository contains datasets used in our research on Telegram instant messa
 ### Published Papers:
 #### 1.
 
-	Arash Dargahi Nobari, Negar Reshadatmand and Mahmood Neshati. “Analysis of Telegram, An Instant Messaging Service”,
+	Arash Dargahi Nobari, Negar Reshadatmand, and Mahmood Neshati. “Analysis of Telegram, An Instant Messaging Service”,
 	In proceedings of The 26th ACM International Conference on Information and Knowledge Management (CIKM ’17), Nov 2017.
 
 You may check the [paper](https://dl.acm.org/citation.cfm?id=3133132) ([PDF](http://facultymembers.sbu.ac.ir/neshati/wp-content/uploads/2017/11/telegram.pdf) and [Poster](http://facultymembers.sbu.ac.ir/neshati/wp-content/uploads/2017/11/poster_CIKM.pdf)) for more information.
 
 #### 2.
-Not published yet.
+
+	Arash Dargahi Nobari, Malikeh Haj Khan Mirzaye Sarraf, Mahmood Neshati, and Farnaz Erfanian Daneshvar. “Characteristics of viral messages on Telegram; The world’s largest hybrid public and private messenger”, In Expert Systems with Applications.
+
+You may check the [paper](https://doi.org/10.1016/j.eswa.2020.114303) ([preprint](http://arashdargahi.com/wp-content/uploads/telegram_ESWA.pdf)) for more information.
 
 ## Dataset
 
@@ -42,6 +45,7 @@ There are five tables in this database:
 ## Citation
 
 Please cite the paper, If you used the data in this repository.
+#### 1.
 
 ```
 @inproceedings{DargahiNobari:2017:ATI:3132847.3133132,
@@ -61,4 +65,18 @@ Please cite the paper, If you used the data in this repository.
  address = {New York, NY, USA},
  keywords = {classification, instant messaging, pagerank, spam detection, telegram},
 } 
+```
+#### 2.
+```
+@article{DARGAHINOBARI2020114303,
+title = "Characteristics of viral messages on Telegram; The world’s largest hybrid public and private messenger",
+journal = "Expert Systems with Applications",
+pages = "114303",
+year = "2020",
+issn = "0957-4174",
+doi = "https://doi.org/10.1016/j.eswa.2020.114303",
+url = "http://www.sciencedirect.com/science/article/pii/S0957417420310010",
+author = "Arash {Dargahi Nobari} and Malikeh {Haj Khan Mirzaye Sarraf} and Mahmood Neshati and Farnaz {Erfanian Daneshvar}",
+keywords = "Telegram, Instant messaging, Sentiment analysis, Social sensing, Viral message"
+}
 ```
